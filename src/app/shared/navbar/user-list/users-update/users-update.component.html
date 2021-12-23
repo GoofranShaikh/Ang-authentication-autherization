@@ -1,27 +1,25 @@
+
+
 <div class="container">
     <div class="card">
-        <h5 class="card-title  text-center">Register</h5>
+        <h5 class="card-title  text-center">Edit Detials</h5>
         <div class="card-body">
-            <form [formGroup]="userRegistration" (ngSubmit)="onSubmit()">
+            <form [formGroup]="userEdit" (ngSubmit)="onSubmit()">
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email address</label>
                   <input type="email" formControlName="email" class="form-control" id="exampleInputEmail1" (blur)="validationCheck(userRegistration.controls.email)" aria-describedby="emailHelp">
                   <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password"  formControlName="password" class="form-control" id="exampleInputPassword1" (blur)="validationCheck(password)">
-                </div>
+               
 
                 <div class="form-check mb-3">
                   
                   <input type="checkbox"  value=""  formControlName="isadmin" class="form-check-input" id="isadmin" (blur)="validationCheck(isadmin)">
                   <label for="isadmin" class="form-check-label">Is  user Admin</label>
                 </div>
-                
-
-                 <mat-form-field appearance="fill">
-                  <mat-label>Input & change events</mat-label>
+            
+                <mat-form-field appearance="fill">
+                  <mat-label>Select Date</mat-label>
                   <input matInput [matDatepicker]="picker" formControlName="dob" [min]="minDate" [max]="maxDate"
                          (dateInput)="addEvent('input', $event)" (dateChange)="addEvent( $event)">
                   <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
@@ -36,31 +34,9 @@
                 </div>
                
                
-            <div>
-              <button type="button" (click)="addMobileNo()">Add</button>
+           
 
-              <div class="array" formArrayName="mobileno">
-                <div
-                  class="form-group"
-                  *ngFor="let mobile of mobileno.controls; let i = index"
-                >
-                  <!-- {{skill |json}} -->
-                  <div [formGroupName]="i">
-                   
-                    Mobile No  {{ i+1 }} :
-                    <input class="form-control" type="text" formControlName="mobile" />
-                    <small style="color:'red'" *ngIf="mobile.invalid && mobile.touched"
-                      >this is required field</small
-                    >
-                  </div>
-                </div>
-                </div>
-            </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
         </div>
-      
-
-    </div>
-</div>
 

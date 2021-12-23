@@ -42,9 +42,9 @@ this.loginForm=this.fb.group({
      if( user.email==this.loginForm.value.email && user.password==this.loginForm.value.password  ){
        console.log("logged in successfully")
        const token="abc.def.ghi"
-       const userType=user.usertype
+       const userType=user.isadmin
       
-       localStorage.setItem('usertype',userType)
+       localStorage.setItem('isAdmin',userType)
 
        localStorage.setItem('token',token)
        this.router.navigate(['auth/home'])

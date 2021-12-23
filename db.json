@@ -1,0 +1,146 @@
+{
+  "users": [
+    {
+      "email": "goofan98@gmail.com",
+      "isadmin": "admin",
+      "age": 41,
+      "dob": "1980-10-29T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "email": "abcd@gmail.com",
+      "password": "12345678",
+      "isadmin": "user",
+      "id": 2
+    },
+    {
+      "email": "user@gmail.com",
+      "password": "12345678",
+      "isadmin": "user",
+      "id": 3
+    },
+    {
+      "email": "kk@gmail.com",
+      "password": "12345678",
+      "isadmin": "user",
+      "id": 4
+    },
+    {
+      "email": "bhushan@gmail.ccom",
+      "password": "12345678",
+      "isadmin": "admin",
+      "id": 5
+    },
+    {
+      "email": "Mansoor@gmail.com",
+      "password": "12345678",
+      "isadmin": "admin",
+      "dob": "2003-11-30T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "email": "qqwqwqw",
+      "password": "qwqwqwqw",
+      "isadmin": "user",
+      "dob": "2003-12-02T18:30:00.000Z",
+      "age": 18,
+      "id": 7
+    },
+    {
+      "email": "",
+      "password": "",
+      "isadmin": "user",
+      "dob": "",
+      "age": "",
+      "id": 8
+    },
+    {
+      "email": "abc43@gmail.com",
+      "password": "12345678",
+      "isadmin": "admin",
+      "dob": "2003-12-16T18:30:00.000Z",
+      "age": 18,
+      "id": 9
+    },
+    {
+      "email": "gg@gmail.com",
+      "password": "12345678",
+      "isadmin": "user",
+      "id": 10
+    },
+    {
+      "email": "addgfjja",
+      "password": "12345678",
+      "isadmin": "admin",
+      "dob": "1979-12-31T18:30:00.000Z",
+      "age": 41,
+      "mobileno": [
+        {
+          "mobile": "4434343434"
+        },
+        {
+          "mobile": "8765321112l"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "email": "sasas",
+      "password": "asasa",
+      "isadmin": "admin",
+      "dob": "2003-12-01T18:30:00.000Z",
+      "age": 18,
+      "mobileno": [
+        {
+          "mobile": "23232323"
+        }
+      ],
+      "id": 12
+    },
+    {
+      "email": "ssadasd",
+      "isadmin": "admin",
+      "age": 17,
+      "dob": "2004-12-01T18:30:00.000Z",
+      "id": 13
+    },
+    {
+      "email": "asasas",
+      "isadmin": "admin",
+      "age": 29,
+      "dob": "1992-05-11T18:30:00.000Z",
+      "id": 14
+    },
+    {
+      "email": "121212",
+      "isadmin": "admin",
+      "age": 18,
+      "dob": "2003-11-30T18:30:00.000Z",
+      "id": 15
+    },
+    {
+      "email": "user2@gail.com",
+      "isadmin": "admin",
+      "id": 16
+    },
+    {
+      "email": "testing@gmail.com",
+      "password": "12345678",
+      "isadmin": "user",
+      "dob": "2003-12-01T18:30:00.000Z",
+      "age": 18,
+      "mobileno": [
+        {
+          "mobile": "998754323"
+        },
+        {
+          "mobile": "988755432"
+        },
+        {
+          "mobile": "989875645"
+        }
+      ],
+      "id": 17
+    }
+  ]
+}

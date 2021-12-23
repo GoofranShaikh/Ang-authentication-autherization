@@ -10,12 +10,13 @@ import { SignupService } from 'src/app/core/signup.service';
 })
 export class NavbarComponent implements OnInit {
   userType:string;
+  totalusers:number;
   constructor(private router:Router,private authService:SignupService) {
-
+this.authService.users$.subscribe((res:number)=>this.totalusers=res)
    }
 
   ngOnInit() {
-    this.userType=localStorage.getItem('usertype')
+    this.userType=localStorage.getItem('isAdmin')
  
   }
   goToHomePage(){

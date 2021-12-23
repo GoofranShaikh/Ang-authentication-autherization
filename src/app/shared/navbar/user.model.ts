@@ -2,5 +2,5 @@ export interface Iuser{
     id:number,
     email:string;
     password:string;
-    usertype:string;
+    isadmin:string;
 }

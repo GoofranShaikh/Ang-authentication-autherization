@@ -16,7 +16,7 @@
             <a class="nav-link" (click)="goToContact()">ContactUs</a>
           </li>
           <li class="nav-item" *ngIf="userType=='admin'">
-            <a class="nav-link" (click)="goToUserList()">Users</a>
+            <a class="nav-link" (click)="goToUserList()">Users  <sup class="badge badge-primary">{{totalusers}}</sup></a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link disabled">Disabled</a>
